@@ -51,7 +51,7 @@ function App() {
        {/* buttons inside of our css grid  */}
        <button className="spantwo">AC</button>
        <button>DEL</button>
-       <DigitButton digit="÷" dispatch={dispatch} />
+       {/* <DigitButton digit="÷" dispatch={dispatch} /> */}
        <DigitButton digit={1} dispatch={dispatch} />
        <button>2</button>
        <button>3</button>
